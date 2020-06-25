@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+JLinkExe -device FE310 -if JTAG -speed 4000 -jtagconf -1,-1 -CommandFile recover.jlink
