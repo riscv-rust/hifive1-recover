@@ -14,13 +14,13 @@ For HiFive1: [OpenOCD from SiFive](https://static.dev.sifive.com/dev-tools/riscv
 
 Clone the repository:
 
-``` console
+``` bash
 git clone https://github.com/riscv-rust/hifive1-recover
 cd hifive1-recover
 ```
 
 Alternatively, you can download it as a [zip file](https://github.com/riscv-rust/hifive1-recover/archive/master.zip) and unpack:
-``` console
+``` bash
 wget https://github.com/riscv-rust/hifive1-recover/archive/master.zip
 unzip master.zip
 cd hifive1-recover-master
@@ -29,12 +29,12 @@ cd hifive1-recover-master
 ### HiFive1 Rev B
 
 Make sure `JLinkExe` is in path, otherwise add it:
-``` console
+``` bash
 PATH=$PATH:/path/to/JLink  # /tmp/JLink_Linux_V683b_x86_64, for example
 ```
 
 Connect the board and run the `recover` script:
-``` console
+``` bash
 cd hifive1-revb
 ./recover
 ```
@@ -42,12 +42,12 @@ cd hifive1-revb
 ### HiFive1
 
 Make sure `openocd` is in path, otherwise add it:
-``` console
+``` bash
 PATH=$PATH:/path/to/riscv-openocd-0.10.0-2019.02.0-x86_64-linux-ubuntu14/bin
 ```
 
 Connect the board and run the `recover` script:
-``` console
+``` bash
 cd hifive1
 ./recover
 ```
